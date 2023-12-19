@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.linkposag.PaymentController">
+   <center>
+      <StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0">
+         <children>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Pane prefHeight="800.0" prefWidth="1280.0" stylesheets="@../../../application.css">
+                     <children>
+                        <Pane layoutX="120.0" layoutY="29.0" prefHeight="727.0" prefWidth="988.0" styleClass="paperpane" stylesheets="@../../../application.css">
+                           <children>
+                              <Button layoutX="423.0" layoutY="642.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="143.0" styleClass="button2" stylesheets="@../../../application.css" text="Save" textFill="WHITE" />
+                              <Pane layoutX="43.0" layoutY="117.0" prefHeight="476.0" prefWidth="417.0" styleClass="paperpane" stylesheets="@../../../application.css">
+                                 <children>
+                                    <RadioButton layoutX="71.0" layoutY="93.0" mnemonicParsing="false" text="Full Payment" />
+                                    <RadioButton layoutX="71.0" layoutY="128.0" mnemonicParsing="false" text="Installment" />
+                                    <Label layoutX="52.0" layoutY="34.0" prefHeight="36.0" prefWidth="215.0" text="Credit / Debit Card" />
+                                    <RadioButton layoutX="93.0" layoutY="168.0" mnemonicParsing="false" text="Bank A" />
+                                    <RadioButton layoutX="93.0" layoutY="204.0" mnemonicParsing="false" text="Bank B" />
+                                    <RadioButton layoutX="93.0" layoutY="241.0" mnemonicParsing="false" text="Bank C" />
+                                    <RadioButton layoutX="71.0" layoutY="283.0" mnemonicParsing="false" prefHeight="21.0" prefWidth="115.0" text="Redemption" />
+                                    <RadioButton layoutX="93.0" layoutY="323.0" mnemonicParsing="false" text="Bank A" />
+                                    <RadioButton layoutX="93.0" layoutY="359.0" mnemonicParsing="false" text="Bank B" />
+                                    <RadioButton layoutX="93.0" layoutY="396.0" mnemonicParsing="false" text="Bank C" />
+                                 </children></Pane>
+                              <Label layoutX="357.0" layoutY="25.0" prefHeight="64.0" prefWidth="274.0" styleClass="label2" text="Select Payment">
+                                 <font>
+                                    <Font name="System Bold" size="13.0" />
+                                 </font>
+                              </Label>
+                              <Pane layoutX="523.0" layoutY="117.0" prefHeight="476.0" prefWidth="417.0" styleClass="paperpane" stylesheets="@../../../application.css">
+                                 <children>
+                                    <RadioButton layoutX="71.0" layoutY="93.0" mnemonicParsing="false" text="Full Payment" />
+                                    <RadioButton layoutX="71.0" layoutY="127.0" mnemonicParsing="false" text="Alipay" />
+                                    <Label layoutX="52.0" layoutY="34.0" prefHeight="36.0" prefWidth="215.0" text="Wallets" />
+                                    <RadioButton layoutX="71.0" layoutY="160.0" mnemonicParsing="false" text="Wechat" />
+                                    <RadioButton layoutX="71.0" layoutY="194.0" mnemonicParsing="false" text="QRCS" />
+                                 </children>
+                              </Pane>
+                           </children>
+                        </Pane>
+                     </children>
+                  </Pane>
+               </children>
+            </HBox>
+         </children>
+      </StackPane>
+   </center>
+   <left>
+      <Pane prefHeight="800.0" prefWidth="399.0" style="-fx-background-radius: 10;" styleClass="pane" stylesheets="@../../../application.css" BorderPane.alignment="CENTER">
+         <children>
+            <VBox alignment="CENTER" layoutX="102.0" layoutY="224.0" spacing="40.0">
+               <children>
+                  <Button defaultButton="true" disable="true" mnemonicParsing="false" prefHeight="58.0" prefWidth="196.0" stylesheets="@../../../application.css" text="Payment">
+                     <font>
+                        <Font name="System Bold" size="31.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="banks_button" defaultButton="true" mnemonicParsing="false" onAction="#toBanksPage" prefHeight="58.0" prefWidth="196.0" stylesheets="@../../../application.css" text="Banks">
+                     <font>
+                        <Font name="System Bold" size="31.0" />
+                     </font>
+                  </Button>
+                  <Button defaultButton="true" mnemonicParsing="false" prefHeight="58.0" prefWidth="196.0" stylesheets="@../../../application.css" text="Connection">
+                     <font>
+                        <Font name="System Bold" size="31.0" />
+                     </font>
+                  </Button>
+                  <Button defaultButton="true" mnemonicParsing="false" prefHeight="58.0" prefWidth="196.0" stylesheets="@../../../application.css" text="Admin">
+                     <font>
+                        <Font name="System Bold" size="31.0" />
+                     </font>
+                  </Button>
+               </children>
+            </VBox>
+            <Label layoutX="116.0" layoutY="34.0" prefHeight="73.0" prefWidth="168.0" stylesheets="@../../../application.css" text="LinkPOS Agent" textFill="WHITE" />
+         </children>
+      </Pane>
+   </left>
+</BorderPane>

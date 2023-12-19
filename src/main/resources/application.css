@@ -1,0 +1,64 @@
+.root{
+    -fx-background-color: linear-gradient(to top, #317cc9, #5fa1ee);
+}
+.button{
+    -fx-background-color: #fafcfe;
+    -fx-background-radius: 6;
+    -fx-font-family: "Microsoft Tai Le";
+    -fx-font-size: 20;
+    -fx-cursor: hand;
+
+}
+.label{
+    -fx-font-size:25 ;
+
+}
+
+.label2{
+    -fx-font-size:35 ;
+    -fx-font-style: BOLD;
+
+}
+
+.pane{
+    -fx-background-radius: 10;
+    -fx-background-color: linear-gradient(to top, #317cc9, #5fa1ee);
+
+
+    -fx-effect: dropshadow(three-pass-box,rgb(0,0,0,0.8),5,0,0,0);
+}
+
+.paperpane{
+    -fx-background-radius: 10;
+    -fx-background-color: white;
+
+    -fx-effect: dropshadow(three-pass-box,rgb(0,0,0,0.8),5,0,0,0);
+}
+
+.card{
+    -fx-background-radius: 10;
+    -fx-background-color: white;
+
+    -fx-effect: dropshadow(gaussian,rgb(0,0,0,0.8),5,0,0,0);
+}
+
+.button2{
+    -fx-background-color: linear-gradient(to top, #317cc9, #5fa1ee);
+    -fx-background-radius: 10;
+
+}
+
+.button3{
+    -fx-background-color: linear-gradient(to top, #ED4343, #E11414);
+}
+
+.radio-button{
+    -fx-font-size: 15;
+    -fx-font-family: "Microsoft Tai Le";
+    /*-fx-border-color: lightblue;*/
+    /*-fx-border-insets: -5;*/
+    /*-fx-border-radius: 5;*/
+    /*-fx-border-style: ;*/
+    /*-fx-border-width: 2;*/
+
+}
