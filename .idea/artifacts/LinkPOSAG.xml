@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact name="LinkPOSAG">
+    <output-path>$PROJECT_DIR$/out/artifacts/LinkPOSAG</output-path>
+    <root id="root">
+      <element id="archive" name="LinkPOSAG.jar">
+        <element id="module-output" name="LinkPOSAG" />
+      </element>
+    </root>
+  </artifact>
+</component>

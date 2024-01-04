@@ -1,5 +1,7 @@
 .root{
-    -fx-background-color: linear-gradient(to top, #317cc9, #5fa1ee);
+    /*-fx-background-color: linear-gradient(to top, #1959F5, #5C80F5);*/
+    /*-fx-background-color: linear-gradient(to top, #317cc9, #5fa1ee);*/
+    -fx-background-color: #F1F3F4;
 }
 .button{
     -fx-background-color: #fafcfe;
@@ -15,15 +17,24 @@
 }
 
 .label2{
-    -fx-font-size:35 ;
-    -fx-font-style: BOLD;
+    -fx-fill: white;
+    -fx-font-size:35;
 
+
+
+}
+
+.cancle-button{
+    -fx-text-fill: black;
+    -fx-background-color: white;
+    -fx-background-radius: 50;
+    -fx-font-size: 13;
 }
 
 .pane{
     -fx-background-radius: 10;
-    -fx-background-color: linear-gradient(to top, #317cc9, #5fa1ee);
-
+    /*-fx-background-color: linear-gradient(to top, #317cc9, #5fa1ee);*/
+    -fx-background-color: linear-gradient(to top, #1959F5, #5C80F5);
 
     -fx-effect: dropshadow(three-pass-box,rgb(0,0,0,0.8),5,0,0,0);
 }
@@ -48,17 +59,38 @@
 
 }
 
-.button3{
-    -fx-background-color: linear-gradient(to top, #ED4343, #E11414);
+.h1{
+    -fx-fill: White;
+    -fx-font-size: 25;
 }
 
-.radio-button{
+.h2{
+    -fx-fill: White;
+    -fx-font-size: 30;
+}
+
+
+
+/*.radio-button{*/
+/*    -fx-font-size: 15;*/
+/*    -fx-font-family: "Microsoft Tai Le";*/
+/*    !*-fx-border-color: lightblue;*!*/
+/*    !*-fx-border-insets: -5;*!*/
+/*    !*-fx-border-radius: 5;*!*/
+/*    !*-fx-border-style: ;*!*/
+/*    !*-fx-border-width: 2;*!*/
+
+/*}*/
+
+.tab-pane{
     -fx-font-size: 15;
-    -fx-font-family: "Microsoft Tai Le";
-    /*-fx-border-color: lightblue;*/
-    /*-fx-border-insets: -5;*/
-    /*-fx-border-radius: 5;*/
-    /*-fx-border-style: ;*/
-    /*-fx-border-width: 2;*/
 
 }
+
+.add-card{
+    -fx-border-radius: 10;
+    -fx-border-color: #5fa1ee;
+    -fx-border-width: 2.5;
+    -fx-border-style: dotted;
+}
+

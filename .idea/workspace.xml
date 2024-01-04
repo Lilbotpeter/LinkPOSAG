@@ -4,32 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36154c94-c1cc-4cd6-b609-4d184807a52c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/linkposag/AdminController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/linkposag/BanksController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/linkposag/ConnectionController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/linkposag/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/linkposag/LinkPOSApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/linkposag/PaymentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/linkposag/admin-pg.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/linkposag/bank-pg.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/linkposag/connection-pg.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/linkposag/hello-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/linkposag/payment-pg.fxml" afterDir="false" />
+    <list default="true" id="36154c94-c1cc-4cd6-b609-4d184807a52c" name="Changes" comment="uid-2">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/LinkPOSAG.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/linkposag/DatabaseConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/linkposag/DialogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/linkposag/LinkPOSController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/linkposag/TestModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/linkposag/AspNetUsers.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/linkposag/Images/585e4bcdcb11b227491c3396.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/linkposag/Images/digi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/linkposag/bank-insert-card.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/linkposag/card-bank.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/linkposag/main-pg.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/linkposag/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/linkposag/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/linkposag/BanksController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/linkposag/BanksController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/linkposag/ConnectionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/linkposag/ConnectionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/linkposag/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/linkposag/LinkPOSApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/linkposag/LinkPOSApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/linkposag/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/linkposag/PaymentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/linkposag/admin-pg.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/linkposag/admin-pg.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/linkposag/bank-pg.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/linkposag/bank-pg.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/linkposag/connection-pg.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/linkposag/connection-pg.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/linkposag/hello-view.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/linkposag/payment-pg.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/linkposag/payment-pg.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,9 +46,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="FxmlFile" />
         <option value="CSS File" />
         <option value="JavaFXApplication" />
+        <option value="Interface" />
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -54,40 +57,54 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2ZkFj2rYy0WlIsuZt3QUVI1fel9" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.LinkPOSAG [:HelloApplication.main()].executor": "Run",
-    "Gradle.LinkPOSAG [:LinkPOSApplication.main()].executor": "Run",
-    "Gradle.Upgrade Gradle wrapper.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Program Files/Java/javafx-sdk-21.0.1/lib",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.23103449",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Build LinkPOSAG.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.D:/Intern/Project/LinkPOSAG [LinkPOSApplication.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.LinkPOSAG [:HelloApplication.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.LinkPOSAG [:LinkPOSApplication.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Upgrade Gradle wrapper.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Digio/linkpos-agent-dev&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.23103449&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.language&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Intern\Project\LinkPOSAG\src\main\resources\com\example\linkposag\Images" />
+      <recent name="D:\Intern\Project\LinkPOSAG\src\main\resources\images" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Intern\Project\LinkPOSAG\src\main\resources" />
       <recent name="D:\Intern\Project\LinkPOSAG\src\main\resources\com\example\linkposag" />
@@ -109,6 +126,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
+        <option value="jdk-21.0.1-openjdk-21.0.1-249ae16d76d6-a618e4d4" />
         <option value="jdk-21.0.1-openjdk-21.0.1-3183f394aec4-7d648f2c" />
       </set>
     </attachedChunks>
@@ -121,11 +139,59 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1702958303672</updated>
-      <workItem from="1702958304743" duration="18398000" />
+      <workItem from="1702958304743" duration="25687000" />
+      <workItem from="1703039751796" duration="23664000" />
+      <workItem from="1703125813159" duration="20239000" />
+      <workItem from="1703213120364" duration="18417000" />
+      <workItem from="1703237670313" duration="2872000" />
+      <workItem from="1703303091549" duration="6494000" />
+      <workItem from="1703333304007" duration="2609000" />
+      <workItem from="1703414985003" duration="6000" />
+      <workItem from="1703469333615" duration="29140000" />
+      <workItem from="1703559391324" duration="19603000" />
+      <workItem from="1703650010916" duration="5862000" />
+      <workItem from="1703660643313" duration="5415000" />
+      <workItem from="1703745057798" duration="1766000" />
+      <workItem from="1704161598343" duration="14666000" />
+      <workItem from="1704237304531" duration="4000" />
+      <workItem from="1704247874573" duration="4481000" />
+      <workItem from="1704256019435" duration="15113000" />
+      <workItem from="1704275460604" duration="1617000" />
+      <workItem from="1704334894186" duration="11920000" />
+      <workItem from="1704352125291" duration="23000" />
     </task>
+    <task id="LOCAL-00001" summary="uid-2">
+      <option name="closed" value="true" />
+      <created>1702978355571</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1702978355571</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="uid-2" />
+    <option name="LAST_COMMIT_MESSAGE" value="uid-2" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
